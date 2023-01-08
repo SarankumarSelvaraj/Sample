@@ -5,7 +5,7 @@ import java.util.Properties;
 class ReadPropFile {
   public static void main(String[] args) throws Exception {
     // create the file input stream object.
-    FileInputStream fis = new FileInputStream("C:\\Users\\manoj\\Downloads\\Config.properties");
+    FileInputStream fis = new FileInputStream("C:\\Users\\download\\Config.properties");
     // create the properties object.
     Properties prop = new Properties();
     prop.load(fis);
